@@ -84,4 +84,4 @@ async def mute(interaction: discord.Interaction, member: discord.Member, minutes
     await member.timeout(duration)
     await interaction.response.send_message(f'🤐 {member.name} заглушен за {minutes}м.')
 
-bot.run('MTQ2OTQyODEwODc1ODA4OTc1OA.G0Xi4A.xe9nFPLtTZR2YsExX_aBiwbumH2x5xWP231QFo')
+bot.run('MTQ2OTQyODEwODc1ODA4OTc1OA.G7yMHA.TCVw6DS3flqvdAbpHOPtN3AGVjAouBgpefqDDQ')
